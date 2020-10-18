@@ -1,4 +1,27 @@
 ---
 label: Work
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
