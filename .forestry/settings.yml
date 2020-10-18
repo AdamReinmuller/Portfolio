@@ -11,9 +11,6 @@ sections:
   label: Work
   create: all
   match: "**/*"
-- type: document
-  path: TestDocument
-  label: TestDocument
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
