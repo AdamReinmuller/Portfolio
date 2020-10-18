@@ -1,4 +1,24 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+- name: block
+  type: blocks
+  label: Block
+  template_types: []
+  config:
+    min: 
+    max: 
