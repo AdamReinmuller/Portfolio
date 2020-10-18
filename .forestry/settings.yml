@@ -7,8 +7,8 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: test-directory
-  label: TestDirectory
+  path: cms/work
+  label: Work
   create: all
   match: "**/*"
 - type: document
