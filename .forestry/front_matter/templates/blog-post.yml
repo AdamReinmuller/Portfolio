@@ -23,3 +23,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- cms/post/test-post-1.md
