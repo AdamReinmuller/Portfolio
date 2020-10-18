@@ -5,8 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: asd
-- type: heading
   label: Content
 upload_dir: uploads
 public_path: "/uploads"
